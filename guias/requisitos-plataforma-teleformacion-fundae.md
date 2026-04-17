@@ -1,3 +1,12 @@
+
+<div align="center">
+
+![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
+
+</div>
+
+---
+
 # Requisitos Técnicos de la Plataforma de Teleformación para FUNDAE
 
 > Versión: v2026.1 · Actualizado: Marzo 2026
