@@ -1,3 +1,12 @@
+
+<div align="center">
+
+![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
+
+</div>
+
+---
+
 # Guía Completa del Proceso de Formación Bonificada FUNDAE
 
 > Última actualización: Marzo 2026 · Versión: v2026.1
