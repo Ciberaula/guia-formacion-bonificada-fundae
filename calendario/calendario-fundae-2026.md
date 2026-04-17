@@ -1,3 +1,12 @@
+
+<div align="center">
+
+![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
+
+</div>
+
+---
+
 # Calendario FUNDAE 2026 — Fechas Clave y Plazos
 
 > Versión: v2026.1 · Actualizado: Marzo 2026
