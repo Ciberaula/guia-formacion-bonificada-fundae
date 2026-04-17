@@ -1,3 +1,12 @@
+
+<div align="center">
+
+![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
+
+</div>
+
+---
+
 # Datos sobre Formación Bonificada en España
 
 > Estadísticas y datos clave sobre el uso de la formación bonificada FUNDAE. Fuentes: memorias anuales de FUNDAE, INE, Ministerio de Trabajo.
