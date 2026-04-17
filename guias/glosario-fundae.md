@@ -1,3 +1,12 @@
+
+<div align="center">
+
+![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
+
+</div>
+
+---
+
 # Glosario de Formación Bonificada FUNDAE
 
 > Términos y conceptos clave para entender la formación bonificada en España
