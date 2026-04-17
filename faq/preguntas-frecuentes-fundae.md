@@ -1,3 +1,12 @@
+
+<div align="center">
+
+![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
+
+</div>
+
+---
+
 # Preguntas Frecuentes sobre Formación Bonificada FUNDAE
 
 > Última actualización: Marzo 2026 · Respuestas basadas en normativa vigente y experiencia real
