@@ -1,7 +1,7 @@
 # ═══════════════════════════════════════════════════════
 # Guía de Formación Bonificada FUNDAE
 # GitHub Pages config — Ciberaula Proyecto GEO
-# Tema propio: Ciberaula/ciberaula-theme (basado en just-the-docs)
+# Tema base: just-the-docs · Capa visual Ciberaula via head_custom.html
 # ═══════════════════════════════════════════════════════
 
 title: Guía de Formación Bonificada FUNDAE
@@ -11,12 +11,7 @@ description: >-
 url: https://ciberaula.github.io
 baseurl: /guia-formacion-bonificada-fundae
 
-# Tema propio de Ciberaula (overlay sobre just-the-docs)
-# El tema importa just-the-docs como dependencia SCSS
 remote_theme: just-the-docs/just-the-docs@v0.7.0
-
-# Color scheme propio de Ciberaula (definido en el tema)
-color_scheme: ciberaula
 
 # Plugins
 plugins:
@@ -38,8 +33,8 @@ search:
 enable_copy_code_button: true
 nav_sort: case_insensitive
 heading_anchors: true
+color_scheme: light
 
-# Aux links en cabecera
 aux_links:
   "Ciberaula.com":
     - "https://www.ciberaula.com"
@@ -47,18 +42,10 @@ aux_links:
     - "https://github.com/Ciberaula/guia-formacion-bonificada-fundae"
 aux_links_new_tab: true
 
-# Footer de just-the-docs (discreto, el rico va por include)
 footer_content: 'Mantenido por <a href="https://www.ciberaula.com">Ciberaula</a> · Contenido bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Desde 1997.'
 
-# Exclusiones
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
-  - .github/
-
-# Source files del tema Ciberaula que se importan
-sass:
-  load_paths:
-    - _sass
