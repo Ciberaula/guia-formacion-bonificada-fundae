@@ -61,3 +61,12 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
+
+# Aplicar layout default (just-the-docs) a TODAS las páginas Markdown
+# sin tener que añadir layout: default en cada frontmatter individual
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
