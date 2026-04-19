@@ -1,4 +1,4 @@
-/* Ciberaula Theme — CSS compilado v3 · 2026-04-19 15:47 */
+/* Ciberaula Theme CSS v4 · 2026-04-19 16:17 */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
 
@@ -805,6 +805,47 @@ h1, .main-content h1 {
 
 .main-content p > strong:first-child {
   color: #C96348;
+}
+
+.main-content .arbol-decision table {
+  border-left: 4px solid #E07A5F;
+  background: #F5F3EF;
+}
+
+.main-content .arbol-decision td:first-child {
+  font-weight: 600;
+  color: #1B2A4A;
+  min-width: 45%;
+}
+
+.main-content .arbol-decision td:nth-child(2) {
+  color: #E07A5F;
+  font-weight: 700;
+  text-align: center;
+  width: 60px;
+}
+
+.main-content .arbol-decision td:last-child {
+  color: #5A5A5A;
+}
+
+.main-content .arbol-decision tr:last-child td {
+  background: rgba(#6B8F71, 0.08);
+  color: #4D6D54;
+  font-weight: 600;
+}
+
+.main-content table td:first-child {
+  white-space: nowrap;
+}
+
+.main-content table td:first-child:only-child,
+.main-content table td[data-icon] {
+  text-align: center;
+  font-size: 1.3rem;
+  vertical-align: middle;
+  width: 3rem;
+  padding: 0.6rem 0.5rem;
 }
 
 /* ── _hero.scss ── */
