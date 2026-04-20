@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Crédito FUNDAE 2026 · CiberAula</title>
+<meta name="description" content="Calcula en segundos el crédito de formación bonificada disponible para tu empresa en 2026. Sin registro. Basada en la normativa vigente Ley 30/2015 y RD 694/2017.">
+<meta name="author" content="Ana María González · CiberAula">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1B2A4A;
+    --navy-dark: #0F1A30;
+    --coral: #E07A5F;
+    --coral-light: #F0A48E;
+    --cream: #FAFAF7;
+    --cream-alt: #F5F3EF;
+    --gray-text: #2C2C2C;
+    --gray-muted: #5A5A5A;
+    --gray-border: #E4E0DA;
+    --green: #6B8F71;
+    --amber: #D97706;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    font-family: 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--gray-text);
+    background: var(--cream);
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  header.hero {
+    margin: -2.5rem -1.5rem 2.5rem;
+    padding: 3rem 1.5rem 3.5rem;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+    color: var(--cream);
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: '';
+    position: absolute;
+    top: 2rem; left: 2rem;
+    width: 6px; height: 80px;
+    background: var(--coral);
+    border-radius: 3px;
+  }
+  .hero-inner { max-width: 720px; margin: 0 auto; padding-left: 1rem; }
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: var(--coral);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.9rem, 4.5vw, 2.8rem);
+    line-height: 1.15;
+    margin: 0 0 0.75rem;
+    letter-spacing: -0.02em;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+    color: rgba(250, 250, 247, 0.85);
+    margin: 0;
+    max-width: 620px;
+    font-weight: 400;
+  }
+  .intro {
+    max-width: 720px;
+    margin: 0 auto 2.5rem;
+    font-size: 1.02rem;
+    line-height: 1.7;
+    color: var(--gray-text);
+  }
+  .intro strong { color: var(--navy); font-weight: 700; }
+
+  .calculator {
+    background: #fff;
+    border: 1px solid var(--gray-border);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(27, 42, 74, 0.06);
+    padding: 2rem 2.25rem 2.25rem;
+    max-width: 720px;
+    margin: 0 auto 2.5rem;
+  }
+  .calculator h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--navy);
+    margin: 0 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--coral);
+    display: inline-block;
+  }
+  .field {
+    margin-bottom: 1.5rem;
+  }
+  .field label {
+    display: block;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.4rem;
+    font-size: 0.98rem;
+  }
+  .field .hint {
+    font-size: 0.82rem;
+    color: var(--gray-muted);
+    margin-top: 0.35rem;
+    line-height: 1.45;
+  }
+  .field input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-family: inherit;
+    font-size: 1.05rem;
+    color: var(--navy-dark);
+    background: var(--cream);
+    border: 2px solid var(--gray-border);
+    border-radius: 6px;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .field input:focus {
+    outline: none;
+    border-color: var(--coral);
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(224, 122, 95, 0.12);
+  }
+  .field input:invalid:not(:placeholder-shown) {
+    border-color: #C96348;
+  }
+  .actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 1.75rem;
+  }
+  button.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.85rem 1.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    border: none;
+  }
+  button.btn-primary {
+    background: var(--coral);
+    color: var(--cream);
+  }
+  button.btn-primary:hover { background: var(--coral-light); color: var(--navy-dark); }
+  button.btn-secondary {
+    background: transparent;
+    color: var(--navy);
+    border: 2px solid var(--gray-border);
+  }
+  button.btn-secondary:hover { border-color: var(--navy); }
+
+  .result {
+    display: none;
+    margin-top: 2rem;
+    padding: 1.75rem 1.75rem 1.5rem;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+    color: var(--cream);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .result.visible { display: block; animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from {opacity: 0; transform: translateY(6px);} to {opacity: 1; transform: translateY(0);} }
+  .result .result-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--coral-light);
+    margin-bottom: 0.4rem;
+  }
+  .result .result-amount {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 6vw, 3.2rem);
+    line-height: 1.1;
+    color: var(--cream);
+    margin: 0 0 0.3rem;
+    letter-spacing: -0.02em;
+  }
+  .result .result-nota {
+    font-size: 0.92rem;
+    color: rgba(250, 250, 247, 0.82);
+    margin: 0 0 1.25rem;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  .result .result-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255,255,255,0.15);
+  }
+  .result .result-cell .k {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(250, 250, 247, 0.6);
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+  }
+  .result .result-cell .v {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--cream);
+  }
+  .result .result-details {
+    margin-top: 1.25rem;
+    padding: 1rem 1.15rem;
+    background: rgba(255,255,255,0.07);
+    border-radius: 6px;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: rgba(250, 250, 247, 0.9);
+  }
+  .result .result-details p { margin: 0 0 0.5rem; }
+  .result .result-details p:last-child { margin: 0; }
+  .result .result-details strong { color: var(--coral-light); font-weight: 700; }
+
+  .error {
+    display: none;
+    margin-top: 1.25rem;
+    padding: 0.85rem 1.1rem;
+    background: #FDE4DC;
+    border-left: 4px solid #C96348;
+    color: #7C2D12;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.92rem;
+  }
+  .error.visible { display: block; }
+
+  section.info {
+    max-width: 720px;
+    margin: 0 auto 2.5rem;
+  }
+  section.info h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.55rem;
+    color: var(--navy);
+    margin: 2.5rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+  }
+  section.info h2::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: var(--coral);
+    border-radius: 2px;
+    margin-top: 0.5rem;
+  }
+  section.info p { font-size: 1rem; line-height: 1.7; color: var(--gray-text); }
+
+  table.tramos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(27, 42, 74, 0.06);
+    font-size: 0.95rem;
+  }
+  table.tramos thead { background: var(--navy); }
+  table.tramos thead th {
+    color: var(--cream);
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  table.tramos tbody td {
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--gray-border);
+    color: var(--gray-text);
+    line-height: 1.5;
+  }
+  table.tramos tbody tr:nth-child(even) td { background: var(--cream-alt); }
+  table.tramos tbody tr:last-child td { border-bottom: none; }
+
+  details {
+    background: #fff;
+    border: 1px solid var(--gray-border);
+    border-radius: 6px;
+    padding: 0;
+    margin-bottom: 0.6rem;
+  }
+  details summary {
+    padding: 0.9rem 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--navy);
+    list-style: none;
+    position: relative;
+    padding-right: 2.5rem;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    color: var(--coral);
+    font-weight: 700;
+  }
+  details[open] summary::after { content: '−'; }
+  details .content {
+    padding: 0 1.1rem 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--gray-text);
+  }
+
+  .disclaimer {
+    background: #FEF3C7;
+    border-left: 4px solid var(--amber);
+    padding: 1rem 1.2rem;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: #78350F;
+    margin: 2rem 0;
+  }
+  .disclaimer strong { color: #78350F; }
+
+  footer.ciberaula-footer {
+    background: var(--navy);
+    color: #ccc;
+    margin: 4rem -1.5rem 0;
+    padding: 2.5rem 1.5rem 2rem;
+    border-top: 3px solid var(--coral);
+  }
+  .footer-inner { max-width: 960px; margin: 0 auto; }
+  .footer-top { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; padding-bottom: 1.25rem; border-bottom: 1px solid rgba(255,255,255,0.15); }
+  .footer-col h4 { font-size: 0.72rem; font-weight: 800; color: var(--coral); letter-spacing: 0.12em; text-transform: uppercase; margin: 0 0 0.6rem; }
+  .footer-col p, .footer-col a { font-size: 0.88rem; color: #B0B8C8; line-height: 1.55; text-decoration: none; margin: 0 0 0.3rem; display: block; }
+  .footer-col a:hover { color: var(--cream); }
+  .footer-brand h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; color: var(--cream); font-size: 1.1rem; margin: 0 0 0.5rem; }
+  .since { display: inline-block; background: var(--coral); color: var(--cream); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; padding: 0.25rem 0.6rem; border-radius: 3px; text-transform: uppercase; margin-top: 0.5rem; }
+  .footer-bottom { padding-top: 1.25rem; font-size: 0.78rem; color: #8A8A8A; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+  .footer-bottom a { color: #8A8A8A; text-decoration: none; }
+  .footer-bottom a:hover { color: var(--coral); }
+
+  @media (max-width: 560px) {
+    .calculator { padding: 1.5rem 1.25rem; }
+    .actions { flex-direction: column; }
+    button.btn { width: 100%; }
+    header.hero { padding: 2.25rem 1.5rem 2.75rem; }
+    header.hero::before { left: 1.25rem; }
+    .hero-inner { padding-left: 0.75rem; }
+    .footer-top { flex-direction: column; gap: 1.5rem; }
+    .footer-bottom { flex-direction: column; gap: 0.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Herramienta gratuita · Normativa 2026</span>
+    <h1>Calculadora de Crédito FUNDAE 2026</h1>
+    <p class="subtitle">Estima en segundos el crédito de formación bonificada disponible para tu empresa este año. Sin registros, sin emails, sin complicaciones.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="intro">
+  <p>El <strong>crédito FUNDAE</strong> (antigua Fundación Tripartita) es el dinero que tu empresa tiene disponible cada año para formar a sus trabajadores sin coste real, porque se descuenta de los seguros sociales. El importe depende de dos datos: el <strong>número medio de trabajadores</strong> y la <strong>cuota de formación profesional</strong> pagada el año anterior.</p>
+</div>
+
+<form class="calculator" id="calcForm" novalidate>
+  <h2>Introduce los datos</h2>
+
+  <div class="field">
+    <label for="numTrabajadores">Número medio de trabajadores</label>
+    <input type="number" id="numTrabajadores" name="numTrabajadores" min="1" max="99999" step="1" placeholder="Ej: 25" required>
+    <div class="hint">Plantilla media del ejercicio anterior. Suma los trabajadores de cada mes y divide entre 12.</div>
+  </div>
+
+  <div class="field">
+    <label for="cotizacionFP">Cotización por Formación Profesional del año anterior (€)</label>
+    <input type="number" id="cotizacionFP" name="cotizacionFP" min="0" max="10000000" step="0.01" placeholder="Ej: 4500" required>
+    <div class="hint">Aparece en los boletines de cotización (TC1) como "Formación Profesional". También consultable en la sede electrónica de la TGSS.</div>
+  </div>
+
+  <div class="actions">
+    <button type="submit" class="btn btn-primary">Calcular crédito</button>
+    <button type="reset" class="btn btn-secondary" id="resetBtn">Reiniciar</button>
+  </div>
+
+  <div class="error" id="errorBox" role="alert"></div>
+
+  <div class="result" id="resultBox" role="region" aria-live="polite">
+    <div class="result-label">Crédito disponible</div>
+    <div class="result-amount" id="resAmount">—</div>
+    <p class="result-nota" id="resNota"></p>
+
+    <div class="result-grid">
+      <div class="result-cell">
+        <div class="k">Tramo de plantilla</div>
+        <div class="v" id="resTramo">—</div>
+      </div>
+      <div class="result-cell">
+        <div class="k">% aplicable</div>
+        <div class="v" id="resPorcentaje">—</div>
+      </div>
+      <div class="result-cell">
+        <div class="k">Cofinanciación obligatoria</div>
+        <div class="v" id="resCofin">—</div>
+      </div>
+      <div class="result-cell">
+        <div class="k">Plazo comunicación</div>
+        <div class="v" id="resPlazo">—</div>
+      </div>
+    </div>
+
+    <div class="result-details" id="resDetails"></div>
+  </div>
+</form>
+
+<section class="info">
+  <h2>Tramos aplicables en 2026</h2>
+  <p>La normativa (Ley 30/2015 y RD 694/2017) establece un porcentaje de bonificación según el tamaño de la plantilla. Las empresas más pequeñas tienen el porcentaje más alto, y además las micropymes tienen un crédito mínimo garantizado de 420 € independientemente de lo que hayan cotizado.</p>
+
+  <table class="tramos">
+    <thead>
+      <tr>
+        <th>Plantilla media</th>
+        <th>% Bonificable</th>
+        <th>Cofinanciación empresa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1-5 trabajadores</td><td>Crédito mínimo 420 €</td><td>0 %</td></tr>
+      <tr><td>6-9 trabajadores</td><td>100 %</td><td>5 %</td></tr>
+      <tr><td>10-49 trabajadores</td><td>75 %</td><td>10 %</td></tr>
+      <tr><td>50-249 trabajadores</td><td>60 %</td><td>20 %</td></tr>
+      <tr><td>250 o más trabajadores</td><td>50 %</td><td>40 %</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <details>
+    <summary>¿Qué es exactamente el crédito FUNDAE?</summary>
+    <div class="content">Es el importe que una empresa puede deducirse de las cuotas de la Seguridad Social por formar a sus trabajadores. No es una subvención que se ingresa: es una bonificación que se aplica al pagar los seguros sociales del mes en que se imparte la formación. Si no se utiliza antes del 31 de diciembre, se pierde.</div>
+  </details>
+
+  <details>
+    <summary>¿De dónde saco la cotización por formación profesional?</summary>
+    <div class="content">Aparece en los boletines de cotización mensuales (antiguo TC1) bajo el concepto "Formación Profesional". Para calcular el total del año anterior, suma esa cantidad de los 12 meses. También puedes consultarla en la Sede Electrónica de la Tesorería General de la Seguridad Social.</div>
+  </details>
+
+  <details>
+    <summary>¿Qué es la cofinanciación obligatoria?</summary>
+    <div class="content">Las empresas de más de 5 trabajadores están obligadas a aportar un porcentaje del coste total de la formación con recursos propios. Ese porcentaje varía del 5 % al 40 % según tamaño. Puede cubrirse con el coste salarial de los trabajadores durante las horas de formación realizadas en horario laboral — no tiene por qué ser dinero adicional.</div>
+  </details>
+
+  <details>
+    <summary>¿Y si soy autónomo sin trabajadores?</summary>
+    <div class="content">FUNDAE está diseñada para empresas con trabajadores asalariados. Un autónomo sin empleados no cotiza por formación profesional en TGSS y por tanto no genera crédito FUNDAE. Existen otras convocatorias de formación para autónomos, pero se gestionan fuera del sistema de bonificaciones.</div>
+  </details>
+
+  <details>
+    <summary>¿Qué pasa si no uso todo el crédito este año?</summary>
+    <div class="content">El crédito FUNDAE es anual y no acumulable. Lo que no apliques antes del 31 de diciembre del ejercicio en curso se pierde. Las bonificaciones se aplican en los boletines de cotización del mes en que finaliza cada acción formativa.</div>
+  </details>
+
+  <details>
+    <summary>¿Esta calculadora tiene validez oficial?</summary>
+    <div class="content">No. Es una estimación orientativa basada en la normativa vigente. El crédito oficial de tu empresa aparece en la aplicación <a href="https://empresa.fundae.es" target="_blank" rel="noopener">empresa.fundae.es</a> a partir de enero de cada año. Si la estimación difiere mucho del crédito oficial, revisa que los datos introducidos sean correctos.</div>
+  </details>
+
+  <div class="disclaimer">
+    <strong>Aviso:</strong> Esta herramienta calcula una estimación orientativa del crédito FUNDAE basada en la normativa vigente (Ley 30/2015 y RD 694/2017). El crédito real de cada empresa se consulta en la aplicación oficial <a href="https://empresa.fundae.es" target="_blank" rel="noopener">empresa.fundae.es</a>. CiberAula no se responsabiliza de decisiones empresariales tomadas exclusivamente en base a esta estimación.
+  </div>
+</section>
+
+</div>
+
+<footer class="ciberaula-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-col footer-brand" style="flex:1 1 320px;">
+        <h3>Ciberaula</h3>
+        <p>Formación corporativa online bonificada FUNDAE para empresas españolas. Diseñamos, impartimos y gestionamos programas formativos para equipos.</p>
+        <span class="since">Desde 1997</span>
+      </div>
+      <div class="footer-col">
+        <h4>Ecosistema GEO</h4>
+        <a href="https://github.com/Ciberaula/guia-formacion-bonificada-fundae" target="_blank" rel="noopener">Biblia FUNDAE</a>
+        <a href="https://github.com/Ciberaula/ia-empresas-espana" target="_blank" rel="noopener">IA para empresas</a>
+        <a href="https://github.com/Ciberaula/formacion-online-empresas" target="_blank" rel="noopener">Formación online</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="https://www.ciberaula.com">www.ciberaula.com</a>
+        <a href="mailto:admision@ciberaula.com">admision@ciberaula.com</a>
+        <a href="tel:+34915303387">Tel: 91 530 33 87</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Ciberaula Servicios Informáticos, S.L. · Madrid, España</div>
+      <div>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Contenido CC BY-SA 4.0</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Ciberaula/guia-formacion-bonificada-fundae/blob/main/LICENSE">Licencia del código</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./calculadora.js"></script>
+<script>
+  // Usa calcularCreditoFUNDAE de calculadora.js (ya cargado arriba)
+  const form = document.getElementById('calcForm');
+  const errorBox = document.getElementById('errorBox');
+  const resultBox = document.getElementById('resultBox');
+
+  const fmtEuro = (n) => new Intl.NumberFormat('es-ES', { minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(n) + ' €';
+  const fmtNumber = (n) => new Intl.NumberFormat('es-ES').format(n);
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    errorBox.classList.remove('visible');
+    resultBox.classList.remove('visible');
+
+    const nt = parseInt(document.getElementById('numTrabajadores').value, 10);
+    const cfp = parseFloat(document.getElementById('cotizacionFP').value);
+
+    if (isNaN(nt) || nt < 1) {
+      errorBox.textContent = 'El número de trabajadores debe ser al menos 1.';
+      errorBox.classList.add('visible');
+      return;
+    }
+    if (isNaN(cfp) || cfp < 0) {
+      errorBox.textContent = 'La cotización por formación profesional no puede ser negativa.';
+      errorBox.classList.add('visible');
+      return;
+    }
+
+    const r = calcularCreditoFUNDAE({ numTrabajadores: nt, cotizacionFP: cfp });
+    if (r.error) {
+      errorBox.textContent = r.error;
+      errorBox.classList.add('visible');
+      return;
+    }
+
+    document.getElementById('resAmount').textContent = fmtEuro(r.creditoFinal);
+    document.getElementById('resNota').textContent = r.nota;
+    document.getElementById('resTramo').textContent = r.plantilla;
+    document.getElementById('resPorcentaje').textContent = r.porcentaje === 0 ? 'Mínimo garantizado' : r.porcentaje + ' %';
+    document.getElementById('resCofin').textContent = r.cofinanciacion === 0 ? 'No obligatoria' : r.cofinanciacion + ' %';
+    document.getElementById('resPlazo').textContent = nt < 10 ? '2 días antes' : '7 días antes';
+
+    const details = document.getElementById('resDetails');
+    details.innerHTML = `
+      <p><strong>Cofinanciación:</strong> ${r.detalles.descripcionCofinanciacion}</p>
+      <p><strong>Plazo de comunicación a FUNDAE:</strong> ${r.detalles.plazosComunicacion}.</p>
+      <p><strong>Fecha límite para aplicarlo:</strong> ${r.detalles.fechaLimite}</p>
+    `;
+
+    resultBox.classList.add('visible');
+    resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    errorBox.classList.remove('visible');
+    resultBox.classList.remove('visible');
+  });
+</script>
+
+</body>
+</html>
