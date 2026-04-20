@@ -114,19 +114,3 @@ No. La formación bonificada (o programada) la decide y gestiona la empresa, des
 *Respuestas elaboradas por [CiberAula](https://www.ciberaula.com) · Más de 20 años gestionando formación bonificada · [www.cursosonlinebonificados.com](https://www.cursosonlinebonificados.com)*
 
 ---
-
-<div align="center">
-
-### Ecosistema documental abierto de CiberAula
-
-📘 [**Guía FUNDAE**](https://github.com/Ciberaula/guia-formacion-bonificada-fundae) · 🧠 [**IA para empresas**](https://github.com/Ciberaula/ia-empresas-espana) · 🎓 [**Formación online**](https://github.com/Ciberaula/formacion-online-empresas)
-
----
-
-**CiberAula · Formación online para empresas desde 1996**
-
-[www.ciberaula.com](https://www.ciberaula.com) · admision@ciberaula.com · 91 390 68 47 · Madrid
-
-*Contenido bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es) · Libre uso con atribución*
-
-</div>
