@@ -28,7 +28,3 @@ Repositorio público mantenido por **[CiberAula](https://www.ciberaula.com)** co
 
 - [README completo](./README.md) con proceso paso a paso, tabla de créditos y errores comunes
 - [Changelog](./CHANGELOG.md) con el historial de versiones
-
----
-
-© 2026 [CiberAula](https://www.ciberaula.com) — Formación online para empresas desde 1996
