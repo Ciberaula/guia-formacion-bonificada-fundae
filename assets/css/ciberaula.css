@@ -1,4 +1,4 @@
-/* Ciberaula Theme CSS v5 · 2026-04-20 17:30 · sidebar con mas respiro */
+/* Ciberaula Theme CSS v6 · 2026-04-20 17:40 · fix primer item nav pegado al header */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
 
@@ -235,7 +235,7 @@ h1, .main-content h1 {
 }
 
 .site-nav {
-  padding: 0.75rem 0;
+  padding: 1.5rem 0 0.75rem;
 }
 
 .nav-list .nav-list-item {
