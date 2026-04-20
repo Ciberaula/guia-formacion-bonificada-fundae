@@ -1,3 +1,8 @@
+---
+title: "Glosario FUNDAE"
+description: "Definiciones de los conceptos clave de la formación bonificada"
+---
+
 
 
 
