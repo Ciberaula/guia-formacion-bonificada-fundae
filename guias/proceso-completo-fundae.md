@@ -299,8 +299,6 @@ FUNDAE puede auditar las bonificaciones aplicadas **hasta 4 años después**. Co
 
 <div align="center">
 
-![CiberAula · Ecosistema de formación abierta](../assets/footer_ecosistema.png)
-
 ### Ecosistema documental abierto de CiberAula
 
 📘 [**Guía FUNDAE**](https://github.com/Ciberaula/guia-formacion-bonificada-fundae) · 🧠 [**IA para empresas**](https://github.com/Ciberaula/ia-empresas-espana) · 🎓 [**Formación online**](https://github.com/Ciberaula/formacion-online-empresas)
