@@ -6,6 +6,7 @@ author_role: "Directora de CiberAula"
 published: "2026-04-20"
 updated: "2026-04-20"
 license: "CC BY-SA 4.0"
+nav_exclude: true
 ---
 
 ---
