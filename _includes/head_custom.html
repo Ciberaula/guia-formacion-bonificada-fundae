@@ -1,15 +1,23 @@
 <link rel="stylesheet" href="{{ '/assets/css/ciberaula.css' | relative_url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var mc = document.querySelector(".main-content");
-  if (mc) {
-    var img = document.createElement("img");
-    img.src = "{{ '/assets/banner.png' | relative_url }}";
-    img.alt = "Ciberaula";
-    img.style.cssText = "display:block;max-width:100%;height:auto;margin:0 auto 1.5rem;border-radius:8px";
-    mc.insertBefore(img, mc.firstChild);
+<style>
+  /* Banner corporativo — limitado al ancho del contenido del tema just-the-docs
+     (sidebar 264px + content 800px + padding ≈ 1264px). En pantallas más anchas
+     se queda centrado en lugar de estirarse hasta los bordes del navegador. */
+  .ciberaula-banner-fullwidth {
+    max-width: 1264px;
+    margin: 0 auto;
+    line-height: 0;
+    background: #0d2137;
   }
-});
-</script>
+  .ciberaula-banner-fullwidth img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* Oculta un banner duplicado si apareciera inline en el markdown */
+  .main-content > p:first-child:has(img[src*="banner"]) {
+    display: none !important;
+  }
+</style>
