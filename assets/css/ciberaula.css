@@ -1,4 +1,4 @@
-/* Ciberaula Theme CSS v4 · 2026-04-19 16:17 */
+/* Ciberaula Theme CSS v5 · 2026-04-20 17:30 · sidebar con mas respiro */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
 
@@ -238,12 +238,16 @@ h1, .main-content h1 {
   padding: 0.75rem 0;
 }
 
+.nav-list .nav-list-item {
+  margin-bottom: 0.35rem;
+}
+
 .nav-list .nav-list-item .nav-list-link {
   color: #5A5A5A;
   font-weight: 500;
   font-size: 0.92rem;
-  line-height: 1.4;
-  padding: 0.55rem 1.5rem;
+  line-height: 1.45;
+  padding: 0.7rem 1.5rem;
   border: none !important;
   background: none !important;
   transition: color 0.15s, background 0.15s;
@@ -1031,4 +1035,5 @@ h1, .main-content h1 {
   gap: 1.25rem;
   flex-wrap: wrap;
 }
+
 
