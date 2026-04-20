@@ -1,3 +1,8 @@
+---
+title: "Requisitos FUNDAE plataformas"
+description: "Requisitos técnicos que FUNDAE exige a las plataformas LMS"
+---
+
 
 
 
