@@ -137,8 +137,3 @@ Porque la normativa FUNDAE cambia cada año y la información desactualizada lle
 ### Licencia
 
 Este contenido está bajo licencia [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Puedes compartir y adaptar el contenido citando la fuente.
-
----
-
-**¿Necesitas ayuda con la formación bonificada de tu empresa?**
-🌐 [www.ciberaula.com](https://www.ciberaula.com) · 🌐 [www.cursosonlinebonificados.com](https://www.cursosonlinebonificados.com)
