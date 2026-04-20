@@ -1,4 +1,4 @@
-/* Ciberaula Theme CSS v6 · 2026-04-20 17:40 · fix primer item nav pegado al header */
+/* Ciberaula Theme CSS v7 · 2026-04-20 17:48 · site-nav !important + first-child margin */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
 
@@ -236,6 +236,15 @@ h1, .main-content h1 {
 
 .site-nav {
   padding: 1.5rem 0 0.75rem;
+}
+
+.side-bar .site-nav {
+  padding-top: 1.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.nav-list > .nav-list-item:first-child {
+  margin-top: 0.5rem !important;
 }
 
 .nav-list .nav-list-item {
