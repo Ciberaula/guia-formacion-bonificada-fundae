@@ -2,11 +2,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
-  /* Banner corporativo — coincide con el ancho del layout del tema
-     just-the-docs. El tema coloca sidebar + contenido ocupando:
-       (100% - 66.5rem)/2 + 16.5rem (sidebar) + 50rem (main max-width)
-     = (100% + 66.5rem) / 2 = calc(50% + 33.25rem)
-     El banner se alinea a la iztda para empezar donde empieza el sidebar. */
+  /* Layout centrado — sidebar + main + banner se centran juntos respecto al viewport.
+     A partir de lg (>=66.5rem), el tema just-the-docs ocupa calc(50% + 33.25rem).
+     Sobrante horizontal: calc(50% - 33.25rem).
+     Para centrar: desplazar todo a la derecha calc(25% - 16.625rem). */
   .ciberaula-banner-fullwidth {
     width: 100%;
     line-height: 0;
@@ -18,11 +17,17 @@
     display: block;
   }
   @media (min-width: 66.5rem) {
+    .side-bar {
+      left: calc(25% - 16.625rem);
+    }
+    .main {
+      margin-left: calc(75% - 33.375rem);
+    }
     .ciberaula-banner-fullwidth {
       width: calc(50% + 33.25rem);
+      margin-left: calc(25% - 16.625rem);
     }
   }
-  /* Oculta un banner duplicado si apareciera inline en el markdown */
   .main-content > p:first-child:has(img[src*="banner"]) {
     display: none !important;
   }
