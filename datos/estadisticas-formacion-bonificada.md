@@ -1,3 +1,8 @@
+---
+title: "Estadísticas de formación bonificada"
+description: "Datos de uso del crédito FUNDAE por tamaño de empresa, sector y modalidad"
+---
+
 
 
 
