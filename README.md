@@ -1,8 +1,4 @@
-<div align="center">
 
-![CiberAula · Entidad organizadora de formación bonificada](assets/banner.png)
-
-</div>
 
 # 📚 Guía Completa de Formación Bonificada FUNDAE para Empresas en España
 
