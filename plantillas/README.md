@@ -260,7 +260,3 @@ _________________________________________________________________
 
 Fecha: ________________  Firma (opcional): ________________
 ```
-
----
-
-*Plantillas elaboradas por [CiberAula](https://www.ciberaula.com) · [www.cursosonlinebonificados.com](https://www.cursosonlinebonificados.com)*
