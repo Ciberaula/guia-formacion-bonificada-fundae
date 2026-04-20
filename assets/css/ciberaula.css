@@ -548,7 +548,7 @@ h1, .main-content h1 {
   position: absolute;
   top: -0.7rem;
   left: 1.25rem;
-  background: #1B2A4A;
+  background: #E07A5F;
   color: #FAFAF7;
   font-size: 0.7rem;
   font-weight: 800;
@@ -927,10 +927,14 @@ h1, .main-content h1 {
 
 /* ── _footer.scss ── */
 .ciberaula-footer {
-  margin-top: 5rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid #E4E0DA;
+  margin-top: 0;
+  padding: 2.5rem 4% 0;
+  border-top: 3px solid #E07A5F;
   font-family: 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+  background: #1B2A4A;
+  color: #ccc;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .ciberaula-footer__top {
@@ -939,7 +943,7 @@ h1, .main-content h1 {
   gap: 2.5rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #E4E0DA;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 @media (max-width: 768px) {
@@ -950,13 +954,13 @@ h1, .main-content h1 {
   font-family: 'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #1B2A4A;
+  color: #FAFAF7;
   margin: 0 0 0.5rem;
 }
 
 .ciberaula-footer__brand p {
   font-size: 0.9rem;
-  color: #5A5A5A;
+  color: #B0B8C8;
   line-height: 1.6;
   max-width: 420px;
   margin: 0 0 1rem;
@@ -964,7 +968,7 @@ h1, .main-content h1 {
 
 .ciberaula-footer__since {
   display: inline-block;
-  background: #1B2A4A;
+  background: #E07A5F;
   color: #FAFAF7;
   font-size: 0.7rem;
   font-weight: 700;
@@ -993,14 +997,14 @@ h1, .main-content h1 {
 .ciberaula-footer__column li { margin-bottom: 0.4rem; }
 
 .ciberaula-footer__column a {
-  color: #5A5A5A;
+  color: #B0B8C8;
   font-size: 0.9rem;
   text-decoration: none;
   border-bottom: none !important;
 }
 
 .ciberaula-footer__column a:hover {
-  color: #1B2A4A;
+  color: #FAFAF7;
   background: none !important;
 }
 
