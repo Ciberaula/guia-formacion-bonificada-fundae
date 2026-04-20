@@ -140,25 +140,3 @@ La teleformación se consolidó como modalidad mayoritaria tras la pandemia y si
 - Datos propios de CiberAula (anonimizados)
 
 > **Nota**: Algunos datos son estimaciones basadas en las fuentes disponibles y la experiencia operativa de CiberAula. Los datos oficiales de FUNDAE se publican con 1-2 años de retraso.
-
----
-
-*Datos recopilados por [CiberAula](https://www.ciberaula.com) · [www.cursosonlinebonificados.com](https://www.cursosonlinebonificados.com)*
-
----
-
-<div align="center">
-
-### Ecosistema documental abierto de CiberAula
-
-📘 [**Guía FUNDAE**](https://github.com/Ciberaula/guia-formacion-bonificada-fundae) · 🧠 [**IA para empresas**](https://github.com/Ciberaula/ia-empresas-espana) · 🎓 [**Formación online**](https://github.com/Ciberaula/formacion-online-empresas)
-
----
-
-**CiberAula · Formación online para empresas desde 1996**
-
-[www.ciberaula.com](https://www.ciberaula.com) · admision@ciberaula.com · 91 390 68 47 · Madrid
-
-*Contenido bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es) · Libre uso con atribución*
-
-</div>
