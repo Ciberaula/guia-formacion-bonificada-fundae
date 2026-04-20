@@ -1,9 +1,5 @@
 
-<div align="center">
 
-![CiberAula · Formación bonificada FUNDAE](../assets/banner.png)
-
-</div>
 
 ---
 
