@@ -1,4 +1,4 @@
-/* Ciberaula Theme CSS v7 · 2026-04-20 17:48 · site-nav !important + first-child margin */
+/* Ciberaula Theme CSS v8 · 2026-04-20 17:50 · site-header altura automatica (titulo 2 lineas) */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
 
@@ -212,6 +212,13 @@ h1, .main-content h1 {
   border-bottom: 1px solid #E4E0DA;
   padding: 1.5rem 1.5rem 1.25rem;
   min-height: auto;
+}
+
+/* Forzar altura automática del site-header: JTD lo fija en 3.75rem y el titulo de 2 lineas se desborda sobre el nav */
+.side-bar .site-header {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 3.75rem;
 }
 
 .site-title {
