@@ -55,46 +55,46 @@ Los 8 pasos que toda empresa debe seguir para gestionar correctamente la formaci
 
 ## Los 8 pasos del proceso
 
-<div class="bib-pasos">
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Acceder a la aplicación telemática de FUNDAE</h4>
-    <p class="bib-paso__desc">Entrar en <a href="https://empresa.fundae.es">empresa.fundae.es</a> con certificado digital de la empresa. Verificar que los datos (CIF, razón social, domicilio) son correctos. Si es la primera vez, el sistema mostrará los datos asociados al certificado.</p>
+<div class="bib-timeline">
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 1 <span class="bib-timeline__badge">Preparación</span></div>
+    <h4 class="bib-timeline__title">Acceder a la aplicación telemática de FUNDAE</h4>
+    <p class="bib-timeline__desc">Entrar en <a href="https://empresa.fundae.es">empresa.fundae.es</a> con certificado digital de la empresa. Verificar que los datos (CIF, razón social, domicilio) son correctos. Si es la primera vez, el sistema mostrará los datos asociados al certificado.</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Consultar el crédito disponible</h4>
-    <p class="bib-paso__desc">En «Crédito de formación»: crédito asignado, consumido y disponible. El crédito se calcula como la cuota FP del año anterior × porcentaje según plantilla. <strong>Crédito mínimo garantizado: 420 €</strong> para empresas de 1-5 trabajadores.</p>
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 2</div>
+    <h4 class="bib-timeline__title">Consultar el crédito disponible</h4>
+    <p class="bib-timeline__desc">En «Crédito de formación»: crédito asignado, consumido y disponible. El crédito se calcula como la cuota FP del año anterior × porcentaje según plantilla. <strong>Crédito mínimo garantizado: 420 €</strong> para empresas de 1-5 trabajadores.</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Seleccionar la formación</h4>
-    <p class="bib-paso__desc">Elegir formación relacionada con la actividad laboral, impartida por una entidad organizadora acreditada, que cumpla los requisitos técnicos de FUNDAE (duración mínima, tutorización, evaluación).</p>
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 3</div>
+    <h4 class="bib-timeline__title">Seleccionar la formación</h4>
+    <p class="bib-timeline__desc">Elegir formación relacionada con la actividad laboral, impartida por una entidad organizadora acreditada, que cumpla los requisitos técnicos de FUNDAE (duración mínima, tutorización, evaluación).</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Comunicar el inicio de la formación</h4>
-    <p class="bib-paso__desc">A través de la aplicación telemática, <strong>antes de que comience el curso o como máximo el día de inicio</strong>. Incluir: datos de la acción formativa, número de participantes, fechas, modalidad y coste.</p>
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 4 <span class="bib-timeline__badge">Comunicación</span></div>
+    <h4 class="bib-timeline__title">Comunicar el inicio de la formación</h4>
+    <p class="bib-timeline__desc">A través de la aplicación telemática, <strong>antes de que comience el curso o como máximo el día de inicio</strong>. Incluir: datos de la acción formativa, número de participantes, fechas, modalidad y coste.</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Informar a la RLT</h4>
-    <p class="bib-paso__desc">Comunicar a la Representación Legal de los Trabajadores (o a los propios trabajadores si no hay RLT) la formación que se va a realizar. Conservar acuse de recibo como prueba documental.</p>
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 5</div>
+    <h4 class="bib-timeline__title">Informar a la RLT</h4>
+    <p class="bib-timeline__desc">Comunicar a la Representación Legal de los Trabajadores (o a los propios trabajadores si no hay RLT) la formación que se va a realizar. Conservar acuse de recibo como prueba documental.</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Ejecución de la formación</h4>
-    <p class="bib-paso__desc">Durante el curso: control de asistencia (presencial) o seguimiento en plataforma (teleformación). El participante debe completar al menos el <strong>75 % del curso</strong> para ser bonificable. La empresa debe custodiar toda la documentación.</p>
+  <div class="bib-timeline__item bib-timeline__item--current">
+    <div class="bib-timeline__date">Paso 6 <span class="bib-timeline__badge">Ejecución</span></div>
+    <h4 class="bib-timeline__title">Ejecución de la formación</h4>
+    <p class="bib-timeline__desc">Durante el curso: control de asistencia (presencial) o seguimiento en plataforma (teleformación). El participante debe completar al menos el <strong>75 % del curso</strong> para ser bonificable. La empresa debe custodiar toda la documentación.</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Comunicar la finalización</h4>
-    <p class="bib-paso__desc">A través de la aplicación telemática, una vez finalizada la acción formativa. Incluir: participantes que han completado, resultados de evaluación, costes definitivos.</p>
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 7 <span class="bib-timeline__badge">Cierre</span></div>
+    <h4 class="bib-timeline__title">Comunicar la finalización</h4>
+    <p class="bib-timeline__desc">A través de la aplicación telemática, una vez finalizada la acción formativa. Incluir: participantes que han completado, resultados de evaluación, costes definitivos.</p>
   </div>
-  <div class="bib-paso">
-    <span class="bib-paso__num"></span>
-    <h4 class="bib-paso__title">Aplicar la bonificación</h4>
-    <p class="bib-paso__desc">Descontar el importe bonificable en los <strong>boletines de cotización TC1</strong> del mes siguiente a la finalización, o de los meses siguientes dentro del ejercicio. <strong>Plazo máximo: diciembre del ejercicio en curso.</strong></p>
+  <div class="bib-timeline__item">
+    <div class="bib-timeline__date">Paso 8</div>
+    <h4 class="bib-timeline__title">Aplicar la bonificación</h4>
+    <p class="bib-timeline__desc">Descontar el importe bonificable en los <strong>boletines de cotización TC1</strong> del mes siguiente a la finalización, o de los meses siguientes dentro del ejercicio. <strong>Plazo máximo: diciembre del ejercicio en curso.</strong></p>
   </div>
 </div>
 
