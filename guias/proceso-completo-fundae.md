@@ -1,303 +1,170 @@
 ---
+layout: default
 title: "Proceso completo FUNDAE"
-description: "Guía paso a paso de una acción formativa bonificada"
+parent: Guía de Formación Bonificada FUNDAE
+nav_order: 3
+description: "Guía paso a paso del proceso completo de formación bonificada FUNDAE: desde la comunicación de inicio hasta la aplicación de la bonificación en los TC."
 ---
 
+# Proceso completo de formación bonificada FUNDAE
+{: .fs-8 }
 
+Los 8 pasos que toda empresa debe seguir para gestionar correctamente la formación bonificada ante FUNDAE, con plazos, documentación y errores comunes.
+{: .fs-5 .fw-300 }
 
-
----
-
-# Guía Completa del Proceso de Formación Bonificada FUNDAE
-
-> Última actualización: Marzo 2026 · Versión: v2026.1
-> Guía mantenida por [CiberAula](https://www.ciberaula.com)
-
-Esta guía cubre el proceso completo de formación bonificada paso a paso, incluyendo los errores más comunes que hemos detectado en más de 20 años gestionando bonificaciones, y cómo evitarlos.
-
----
-
-## Índice
-
-1. [Antes de empezar: requisitos previos](#1-antes-de-empezar-requisitos-previos)
-2. [Paso 1: Acceder a la aplicación telemática de FUNDAE](#2-paso-1-acceder-a-la-aplicación-telemática-de-fundae)
-3. [Paso 2: Consultar el crédito disponible](#3-paso-2-consultar-el-crédito-disponible)
-4. [Paso 3: Seleccionar la formación](#4-paso-3-seleccionar-la-formación)
-5. [Paso 4: Comunicar el inicio de la formación](#5-paso-4-comunicar-el-inicio-de-la-formación)
-6. [Paso 5: Informar a la RLT](#6-paso-5-informar-a-la-rlt)
-7. [Paso 6: Ejecución de la formación](#7-paso-6-ejecución-de-la-formación)
-8. [Paso 7: Comunicar la finalización](#8-paso-7-comunicar-la-finalización)
-9. [Paso 8: Aplicar la bonificación](#9-paso-8-aplicar-la-bonificación)
-10. [Errores comunes y cómo solucionarlos](#10-errores-comunes-y-cómo-solucionarlos)
-11. [Documentación a conservar para auditorías](#11-documentación-a-conservar-para-auditorías)
+<span style="font-size:12px;color:#71717a">Última actualización: abril 2026 · Verificada contra Ley 30/2015 y RD 694/2017</span>
 
 ---
 
-## 1. Antes de empezar: requisitos previos
+<div class="bib-tldr">
+  <span class="bib-tldr__label">Respuesta directa</span>
+  <p>La formación bonificada permite a las empresas españolas formar a sus trabajadores <strong>recuperando el coste mediante bonificaciones en las cuotas de la Seguridad Social</strong>. El proceso se gestiona a través de la aplicación telemática de FUNDAE (<a href="https://empresa.fundae.es">empresa.fundae.es</a>) y consta de 8 pasos: verificar requisitos, acceder a la aplicación, consultar crédito, seleccionar formación, comunicar inicio, informar a la RLT, ejecutar la formación y aplicar la bonificación.</p>
+  <p>Toda empresa con <strong>al menos 1 trabajador en Régimen General</strong> tiene derecho a bonificar, con un crédito mínimo garantizado de <strong>420 €</strong> para empresas de 1 a 5 trabajadores.</p>
+</div>
 
-Para poder bonificar formación, la empresa debe cumplir **todos** estos requisitos:
+## Antes de empezar: requisitos previos
 
-- **Estar al corriente** de pago con la Seguridad Social y Hacienda
-- **Tener al menos 1 trabajador** en Régimen General (los autónomos sin trabajadores NO pueden bonificar)
-- **Haber cotizado por formación profesional** en el ejercicio anterior
-- **Disponer de certificado digital** de la empresa o persona autorizada para acceder a la aplicación telemática de FUNDAE
+<div class="bib-compare">
+  <div class="bib-compare__col bib-compare__col--ok">
+    <h4><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Pueden bonificar</h4>
+    <ul>
+      <li>Empresas con al menos 1 trabajador en Régimen General</li>
+      <li>Al corriente de pago con Seguridad Social y Hacienda</li>
+      <li>Que hayan cotizado por formación profesional</li>
+      <li>Con certificado digital para acceder a FUNDAE</li>
+    </ul>
+  </div>
+  <div class="bib-compare__col bib-compare__col--ko">
+    <h4><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>NO pueden bonificar</h4>
+    <ul>
+      <li>Autónomos sin trabajadores a su cargo</li>
+      <li>Empleados del hogar</li>
+      <li>Funcionarios (sistema propio de formación)</li>
+      <li>Empresas que no estén al corriente de pagos</li>
+    </ul>
+  </div>
+</div>
 
-### ¿Quiénes NO pueden bonificar?
+<div class="bib-callout bib-callout--warn">
+  <svg class="bib-callout__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg>
+  <div class="bib-callout__body">
+    <div class="bib-callout__label">Error frecuente</div>
+    <p>Muchas pymes creen que por ser pequeñas no tienen derecho. <strong>Toda empresa con al menos 1 trabajador tiene crédito</strong>, incluso las microempresas que cotizan muy poco, gracias al crédito mínimo de 420 €.</p>
+  </div>
+</div>
 
-- Autónomos sin trabajadores a su cargo
-- Empleados del hogar
-- Funcionarios (tienen su propio sistema de formación)
-- Empresas que no estén al corriente de pagos con la Seguridad Social
+## Los 8 pasos del proceso
 
-> ⚠️ **Error frecuente**: Muchas pymes creen que por ser pequeñas no tienen derecho. **Toda empresa con al menos 1 trabajador tiene crédito**, incluso las microempresas que cotizan muy poco, gracias al crédito mínimo de 420 €.
+<div class="bib-pasos">
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Acceder a la aplicación telemática de FUNDAE</h4>
+    <p class="bib-paso__desc">Entrar en <a href="https://empresa.fundae.es">empresa.fundae.es</a> con certificado digital de la empresa. Verificar que los datos (CIF, razón social, domicilio) son correctos. Si es la primera vez, el sistema mostrará los datos asociados al certificado.</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Consultar el crédito disponible</h4>
+    <p class="bib-paso__desc">En «Crédito de formación»: crédito asignado, consumido y disponible. El crédito se calcula como la cuota FP del año anterior × porcentaje según plantilla. <strong>Crédito mínimo garantizado: 420 €</strong> para empresas de 1-5 trabajadores.</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Seleccionar la formación</h4>
+    <p class="bib-paso__desc">Elegir formación relacionada con la actividad laboral, impartida por una entidad organizadora acreditada, que cumpla los requisitos técnicos de FUNDAE (duración mínima, tutorización, evaluación).</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Comunicar el inicio de la formación</h4>
+    <p class="bib-paso__desc">A través de la aplicación telemática, <strong>antes de que comience el curso o como máximo el día de inicio</strong>. Incluir: datos de la acción formativa, número de participantes, fechas, modalidad y coste.</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Informar a la RLT</h4>
+    <p class="bib-paso__desc">Comunicar a la Representación Legal de los Trabajadores (o a los propios trabajadores si no hay RLT) la formación que se va a realizar. Conservar acuse de recibo como prueba documental.</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Ejecución de la formación</h4>
+    <p class="bib-paso__desc">Durante el curso: control de asistencia (presencial) o seguimiento en plataforma (teleformación). El participante debe completar al menos el <strong>75 % del curso</strong> para ser bonificable. La empresa debe custodiar toda la documentación.</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Comunicar la finalización</h4>
+    <p class="bib-paso__desc">A través de la aplicación telemática, una vez finalizada la acción formativa. Incluir: participantes que han completado, resultados de evaluación, costes definitivos.</p>
+  </div>
+  <div class="bib-paso">
+    <span class="bib-paso__num"></span>
+    <h4 class="bib-paso__title">Aplicar la bonificación</h4>
+    <p class="bib-paso__desc">Descontar el importe bonificable en los <strong>boletines de cotización TC1</strong> del mes siguiente a la finalización, o de los meses siguientes dentro del ejercicio. <strong>Plazo máximo: diciembre del ejercicio en curso.</strong></p>
+  </div>
+</div>
 
----
+## Crédito de formación por tramo de plantilla
 
-## 2. Paso 1: Acceder a la aplicación telemática de FUNDAE
+<div class="bib-stat">
+  <div class="bib-stat__left">
+    <div class="bib-stat__num">420<span> €</span></div>
+    <div class="bib-stat__label">Crédito mínimo</div>
+  </div>
+  <div class="bib-stat__body">
+    <h4>Crédito mínimo garantizado para empresas de 1 a 5 trabajadores</h4>
+    <p>Independientemente de lo que la empresa haya cotizado por formación profesional, el crédito mínimo es de 420 €. Suficiente para un curso online completo.</p>
+    <span class="bib-stat__ref">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M7 17L17 7M17 7H9M17 7V15"/></svg>
+      Art. 9 Ley 30/2015 · Art. 7 RD 694/2017
+    </span>
+  </div>
+</div>
 
-La gestión de la formación bonificada se realiza a través de la **aplicación telemática de FUNDAE**: [https://empresa.fundae.es](https://empresa.fundae.es)
+| Plantilla media | Porcentaje sobre cuota FP | Ejemplo (cuota FP: 3.000 €) |
+|:----------------|:--------------------------|:----------------------------|
+| 1–5 trabajadores | Crédito mínimo 420 € | 420 € (mínimo garantizado) |
+| 6–9 trabajadores | 100 % | 3.000 € |
+| 10–49 trabajadores | 75 % | 2.250 € |
+| 50–249 trabajadores | 60 % | 1.800 € |
+| 250+ trabajadores | 50 % | 1.500 € |
 
-### Requisitos de acceso
+## 10 errores que provocan devolución
 
-- **Certificado digital** de la empresa (emitido por la FNMT u otro emisor reconocido)
-- **Navegador compatible**: Chrome, Firefox o Edge actualizados
-- La persona que accede debe estar **autorizada** como responsable de formación de la empresa
+<div class="bib-callout bib-callout--warn">
+  <svg class="bib-callout__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg>
+  <div class="bib-callout__body">
+    <div class="bib-callout__label">Errores que FUNDAE sanciona en auditoría</div>
+    <p><strong>1.</strong> No comunicar el inicio a tiempo (antes del día de inicio). <strong>2.</strong> Usar una plataforma de teleformación no homologada. <strong>3.</strong> No informar a la RLT ni conservar prueba. <strong>4.</strong> Bonificar más del crédito disponible. <strong>5.</strong> No conservar documentación durante 4 años. <strong>6.</strong> Participante no completa el 75 % del curso. <strong>7.</strong> Formación no relacionada con la actividad laboral. <strong>8.</strong> No comunicar modificaciones sobre la marcha. <strong>9.</strong> Aplicar bonificación fuera de plazo. <strong>10.</strong> Inscribir trabajadores no dados de alta en la Seguridad Social.</p>
+  </div>
+</div>
 
-### Si es la primera vez
+## Documentación a conservar para auditorías
 
-1. Acceder con certificado digital a [empresa.fundae.es](https://empresa.fundae.es)
-2. El sistema mostrará los datos de la empresa asociados al certificado
-3. Verificar que los datos de la empresa son correctos (CIF, razón social, domicilio)
-4. Si los datos no son correctos, contactar con FUNDAE antes de continuar
+FUNDAE puede auditar las bonificaciones aplicadas **hasta 4 años después**.
 
-### Errores habituales en el acceso
+<div class="bib-callout bib-callout--success">
+  <svg class="bib-callout__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <div class="bib-callout__body">
+    <div class="bib-callout__label">Documentación obligatoria</div>
+    <p>Comunicaciones de inicio y finalización (capturas de FUNDAE) · Comunicación a la RLT con acuse de recibo · Contrato con la entidad formadora · Factura de la formación · Programa del curso · Control de asistencia firmado (presencial) o informes de seguimiento (teleformación) · Pruebas de evaluación · Cuestionarios de satisfacción · Diplomas emitidos · Boletines TC1 donde se aplicó la bonificación.</p>
+  </div>
+</div>
 
-| Error | Causa probable | Solución |
-|-------|---------------|----------|
-| "Certificado no reconocido" | Certificado caducado o no instalado | Renovar certificado en FNMT |
-| "Empresa no encontrada" | CIF no coincide con Seguridad Social | Verificar inscripción en TGSS |
-| "Sin permisos" | No autorizado como gestor | Solicitar autorización al administrador |
+<div class="bib-callout bib-callout--tip">
+  <svg class="bib-callout__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+  <div class="bib-callout__body">
+    <div class="bib-callout__label">Documentación recomendable</div>
+    <p>Detección de necesidades formativas de la empresa · Plan de formación anual · Correos de coordinación con la entidad formadora · Capturas de pantalla de la plataforma de teleformación.</p>
+  </div>
+</div>
 
----
+<div class="bib-separator bib-separator--dots"><span class="bib-separator__dot"></span><span class="bib-separator__dot"></span><span class="bib-separator__dot"></span></div>
 
-## 3. Paso 2: Consultar el crédito disponible
-
-Una vez dentro de la aplicación, ir a **"Crédito de formación"** para consultar:
-
-- **Crédito asignado** para el ejercicio actual
-- **Crédito consumido** (bonificaciones ya aplicadas)
-- **Crédito disponible** (lo que queda por gastar)
-
-### Cómo se calcula el crédito
-
-El crédito se calcula automáticamente por FUNDAE usando esta fórmula:
-
-```
-Crédito = Cuota de formación profesional del año anterior × Porcentaje según plantilla
-```
-
-| Plantilla media | Porcentaje | Ejemplo (cotización FP: 3.000 €) |
-|----------------|------------|----------------------------------|
-| 1-5 trabajadores | Crédito mínimo 420 € | 420 € (mínimo garantizado) |
-| 6-9 trabajadores | 100% | 3.000 € |
-| 10-49 trabajadores | 75% | 2.250 € |
-| 50-249 trabajadores | 60% | 1.800 € |
-| 250+ trabajadores | 50% | 1.500 € |
-
-> 💡 **Consejo**: El crédito mínimo de 420 € para empresas de 1-5 trabajadores es especialmente generoso proporcionalmente. Una empresa con 2 trabajadores que cotiza solo 200 € por formación profesional, recibe igualmente 420 € de crédito. Suficiente para un curso online completo.
-
----
-
-## 4. Paso 3: Seleccionar la formación
-
-La empresa puede elegir la formación que necesite, siempre que:
-
-- Esté **relacionada con la actividad laboral** de los trabajadores
-- Sea impartida por una **entidad organizadora acreditada**
-- Cumpla los **requisitos de FUNDAE** en cuanto a contenido, duración y modalidad
-
-### Modalidades de formación bonificable
-
-| Modalidad | Descripción | Requisitos específicos |
-|-----------|-------------|----------------------|
-| **Presencial** | En aula física | Control de asistencia firmado |
-| **Teleformación** | Online a través de plataforma | Plataforma homologada con registro de actividad |
-| **Mixta** | Combina presencial y online | Ambos requisitos |
-| **Aula virtual** | En directo por videoconferencia | Registro de conexión y participación |
-
-### Requisitos de la plataforma de teleformación
-
-FUNDAE exige que la plataforma de teleformación cumpla con:
-
-1. **Registro de actividad**: Debe registrar las conexiones del alumno (fecha, hora, duración, páginas visitadas)
-2. **Tutorías**: El alumno debe tener acceso a un tutor que responda en un plazo máximo de 48 horas
-3. **Evaluación**: Debe incluir pruebas de evaluación que midan el aprendizaje
-4. **Interactividad**: El contenido no puede ser solo PDF estáticos; debe incluir elementos interactivos
-5. **Tiempo de conexión mínimo**: El alumno debe dedicar al menos el 75% de las horas del curso
-
-> ⚠️ **Error crítico**: Usar una plataforma que no cumple estos requisitos es la segunda causa más frecuente de devolución de bonificaciones en auditorías. Plataformas como Google Classroom, Zoom solo (sin LMS) o simples repositorios de PDF NO cumplen los requisitos de FUNDAE.
-
----
-
-## 5. Paso 4: Comunicar el inicio de la formación
-
-**Este es el paso más crítico.** La comunicación fuera de plazo invalida completamente la bonificación.
-
-### Plazos de comunicación
-
-| Tamaño de empresa | Plazo mínimo antes del inicio |
-|-------------------|-------------------------------|
-| 1-9 trabajadores | **2 días naturales** antes del inicio |
-| 10+ trabajadores | **7 días naturales** antes del inicio |
-
-### Datos obligatorios en la comunicación
-
-En la aplicación telemática de FUNDAE, debe indicarse:
-
-- **Denominación** de la acción formativa
-- **Modalidad** (presencial, teleformación, mixta, aula virtual)
-- **Fechas** de inicio y fin
-- **Número de participantes**
-- **Número de horas** de la formación
-- **Coste** de la formación (precio por participante)
-- **Entidad organizadora** que imparte la formación
-
-### Errores que hemos visto (y cómo evitarlos)
-
-1. **Contar mal los días**: Los días son **naturales** (incluyen fines de semana y festivos). Si el curso empieza el lunes 10, la comunicación debe hacerse como muy tarde el miércoles 3 (para empresas de 10+) o el sábado 8 (para empresas de 1-9).
-
-2. **El sistema FUNDAE se cae el último día**: Ocurre más de lo que debería. **Nunca dejar la comunicación para el último momento.** Recomendamos comunicar con al menos 10 días de antelación.
-
-3. **Errores en las fechas**: Si el curso empieza antes de la fecha comunicada, la bonificación se invalida completamente. Mejor poner una fecha de inicio posterior y ajustar después si es necesario.
-
-4. **Olvidar modificar si cambian las condiciones**: Si cambia la fecha de inicio, el número de participantes o la duración, hay que modificar la comunicación antes del inicio. Las modificaciones también tienen plazo.
-
----
-
-## 6. Paso 5: Informar a la RLT
-
-La Representación Legal de los Trabajadores (RLT) debe ser informada de las acciones formativas programadas.
-
-### Si la empresa tiene RLT (comité de empresa o delegados de personal)
-
-- Comunicar por escrito las acciones formativas programadas
-- La RLT tiene **15 días** para emitir informe (no vinculante)
-- Conservar la comunicación firmada/sellada como prueba
-
-### Si la empresa NO tiene RLT
-
-- Informar directamente a los trabajadores afectados
-- Se recomienda hacerlo por escrito y conservar prueba de la comunicación
-- En la aplicación de FUNDAE se marca la casilla "Sin RLT"
-
-### Plantillas disponibles
-
-➡️ Ver [plantillas de comunicación a la RLT](../plantillas/) en este repositorio.
-
-> ⚠️ **Error frecuente**: Muchas pymes no tienen RLT y simplemente marcan la casilla en FUNDAE sin informar realmente a los trabajadores. En caso de auditoría, FUNDAE puede solicitar prueba de que los trabajadores fueron informados.
+<div class="bib-meta-footer">
+  <dl>
+    <dt>Ficha</dt><dd><strong>Proceso completo FUNDAE</strong> · Guía paso a paso</dd>
+    <dt>Repositorio</dt><dd><strong>guia-formacion-bonificada-fundae</strong></dd>
+    <dt>Autora</dt><dd><strong>Ana María González</strong> · Directora de CiberAula</dd>
+    <dt>Actualizada</dt><dd>Abril 2026 · <strong>v2.0</strong></dd>
+    <dt>Normativa</dt><dd>Ley 30/2015 · RD 694/2017 · Orden TMS/368/2019</dd>
+  </dl>
+</div>
 
 ---
 
-## 7. Paso 6: Ejecución de la formación
-
-Durante la ejecución de la formación:
-
-### Control de asistencia (formación presencial)
-
-- Registro diario de asistencia firmado por cada participante
-- Si un participante falta más del 25% de las horas, no se puede bonificar su participación
-
-### Seguimiento en plataforma (teleformación)
-
-- El alumno debe completar al menos el **75% del contenido**
-- Debe superar las **pruebas de evaluación**
-- Debe haber realizado al menos una **interacción con el tutor**
-- El tiempo de conexión registrado debe ser **coherente** con las horas del curso
-
-### Cofinanciación
-
-Las empresas de más de 5 trabajadores deben aportar una cofinanciación privada:
-
-| Plantilla | Cofinanciación mínima |
-|-----------|----------------------|
-| 1-5 trabajadores | 0% (sin cofinanciación) |
-| 6-9 trabajadores | 5% |
-| 10-49 trabajadores | 10% |
-| 50-249 trabajadores | 20% |
-| 250+ trabajadores | 40% |
-
-> 💡 La cofinanciación puede cubrirse con el **coste salarial** de los trabajadores durante las horas de formación en horario laboral. Es decir, si el trabajador hace el curso durante su jornada, el salario de esas horas ya cuenta como cofinanciación.
-
----
-
-## 8. Paso 7: Comunicar la finalización
-
-Tras acabar la acción formativa, hay que comunicar la finalización a FUNDAE:
-
-- **Plazo**: 3 meses desde la fecha de finalización
-- **Datos a comunicar**: Participantes que finalizaron, horas realizadas, coste final, resultados de evaluación
-- **Documentación a adjuntar**: Según lo que solicite FUNDAE en la aplicación telemática
-
----
-
-## 9. Paso 8: Aplicar la bonificación
-
-Una vez comunicada la finalización:
-
-1. La empresa calcula el importe a bonificar por cada participante
-2. Aplica la bonificación en los **boletines de cotización a la Seguridad Social** (TC1)
-3. La bonificación se aplica en los meses siguientes a la comunicación de finalización
-4. Si el importe es grande, puede repartirse en varios meses (dentro del mismo ejercicio)
-
-> ⚠️ **Importante**: La bonificación debe aplicarse **dentro del ejercicio** en que se comunicó la finalización. Si la formación finaliza en noviembre y se comunica en enero del año siguiente, la bonificación se aplica en el ejercicio siguiente.
-
----
-
-## 10. Errores comunes y cómo solucionarlos
-
-### Los 10 errores más frecuentes
-
-| # | Error | Consecuencia | Prevención |
-|---|-------|-------------|------------|
-| 1 | Comunicación de inicio fuera de plazo | Pérdida total de bonificación | Comunicar con 10+ días de antelación |
-| 2 | Plataforma no homologada | Devolución en auditoría | Verificar requisitos antes de contratar |
-| 3 | No informar a RLT/trabajadores | Devolución en auditoría | Usar plantillas y conservar prueba |
-| 4 | Bonificar más del crédito | Deuda con Seguridad Social | Verificar crédito disponible antes |
-| 5 | No conservar documentación | Imposibilidad de justificar en auditoría | Archivar todo durante 4 años |
-| 6 | Participante no completa 75% | No bonificable ese participante | Seguimiento durante el curso |
-| 7 | Formación no relacionada con actividad | Devolución en auditoría | Justificar relación con puesto |
-| 8 | No comunicar modificaciones | Discrepancia con la realidad | Modificar antes de que cambie |
-| 9 | Aplicar bonificación fuera de plazo | Pérdida del importe | Aplicar en cuanto se comunique fin |
-| 10 | Formación a trabajadores no dados de alta | No bonificable | Verificar alta en SS antes de inscribir |
-
----
-
-## 11. Documentación a conservar para auditorías
-
-FUNDAE puede auditar las bonificaciones aplicadas **hasta 4 años después**. Conservar:
-
-### Documentación obligatoria
-
-- ✅ Comunicaciones de inicio y finalización (capturas de FUNDAE)
-- ✅ Comunicación a la RLT o a los trabajadores (con acuse de recibo)
-- ✅ Contrato o acuerdo con la entidad formadora
-- ✅ Factura de la formación
-- ✅ Programa/contenido del curso
-- ✅ Control de asistencia firmado (presencial) o informes de seguimiento (teleformación)
-- ✅ Pruebas de evaluación y resultados
-- ✅ Cuestionarios de satisfacción de los participantes
-- ✅ Diplomas o certificados emitidos
-- ✅ Boletines TC1 donde se aplicó la bonificación
-
-### Documentación recomendable
-
-- 📋 Detección de necesidades formativas de la empresa
-- 📋 Plan de formación anual
-- 📋 Correos electrónicos de coordinación con la entidad formadora
-- 📋 Capturas de pantalla de la plataforma de teleformación
-
----
-
-*Guía elaborada por [CiberAula](https://www.ciberaula.com) · [www.cursosonlinebonificados.com](https://www.cursosonlinebonificados.com)*
-
----
+[← Volver al índice]({{ site.baseurl }}/)
