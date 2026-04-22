@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="{{ '/assets/css/ciberaula.css' | relative_url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Instrument+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.ciberaula.com/biblia-formacion-bonificada/css/biblia-recursos.css?v=20260422">
 <style>
   /* CENTRADO COMPLETO DEL LAYOUT - cabecera + footer ancho fijo 1064px
      centrados respecto al viewport. Version 1 validada el 20/04/2026. */
@@ -105,5 +107,13 @@
   }
   .main-content > p:first-child:has(img[src*="banner"]) {
     display: none !important;
+  }
+
+  /* Ajustes para componentes bib-* dentro de .main-content de just-the-docs */
+  .main-content .bib-tldr, .main-content .bib-norma, .main-content .bib-quote,
+  .main-content .bib-callout, .main-content .bib-stat, .main-content .bib-timeline,
+  .main-content .bib-compare, .main-content .bib-pasos, .main-content .bib-definicion,
+  .main-content .bib-separator, .main-content .bib-meta-footer, .main-content .bib-ficha-nav {
+    max-width: none;
   }
 </style>
