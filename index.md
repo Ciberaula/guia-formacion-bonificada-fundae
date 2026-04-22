@@ -69,13 +69,13 @@ permalink: /
   </div>
 </div>
 
-<a href="guias/proceso-completo-fundae" class="bib-ficha-featured">
+<div class="bib-ficha-featured" style="cursor:pointer" onclick="window.location='guias/proceso-completo-fundae'">
   <div class="bib-ficha-featured__num">
     <div class="bib-ficha-featured__num-text">01</div>
     <div class="bib-ficha-featured__badge">Disponible</div>
   </div>
   <div class="bib-ficha-featured__body">
-    <h4 class="bib-ficha-featured__title">Proceso completo FUNDAE paso a paso</h4>
+    <h4 class="bib-ficha-featured__title"><a href="guias/proceso-completo-fundae">Proceso completo FUNDAE paso a paso</a></h4>
     <p class="bib-ficha-featured__sub">Desde la comunicación de inicio hasta la justificación final.</p>
     <p class="bib-ficha-featured__excerpt">Los 8 pasos que toda empresa debe seguir para gestionar correctamente la formación bonificada ante FUNDAE, con plazos, documentación necesaria y errores comunes.</p>
     <div class="bib-ficha-featured__meta">
@@ -83,7 +83,7 @@ permalink: /
       <span>Ley 30/2015 · RD 694/2017</span>
     </div>
   </div>
-</a>
+</div>
 <div class="bib-ficha-pending-grid">
   <a href="faq/preguntas-frecuentes-fundae" class="bib-ficha-pending">
     <span class="bib-ficha-pending__num">02</span>
