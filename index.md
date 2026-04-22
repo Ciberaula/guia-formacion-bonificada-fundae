@@ -84,7 +84,6 @@ permalink: /
     </div>
   </div>
 </a>
-
 <div class="bib-ficha-pending-grid">
   <a href="faq/preguntas-frecuentes-fundae" class="bib-ficha-pending">
     <span class="bib-ficha-pending__num">02</span>
