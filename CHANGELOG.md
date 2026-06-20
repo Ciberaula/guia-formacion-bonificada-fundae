@@ -2,6 +2,17 @@
 
 Todas las actualizaciones significativas de esta guía se documentan aquí. El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y el versionado [Semántico](https://semver.org/lang/es/).
 
+## [v2026.4] — 2026-06-20
+
+### Añadido
+- **Plantillas FUNDAE**: 5 documentos modelo, cada uno como página navegable — comunicación a la RLT, comunicación a trabajadores sin RLT, checklist de documentación para auditoría, acuerdo con entidad organizadora y encuesta de satisfacción. Con su base normativa y listos para copiar.
+
+### Cambiado
+- Glosario: enlace destacado al glosario completo (300+ términos) en ciberaula.com, fecha actualizada a junio 2026 y nav_order corregido (resuelve la colisión con la guía de aplicación).
+- Home: enlace destacado a las plantillas y contadores actualizados (9 secciones · 44 páginas).
+
+---
+
 ## [v2026.3] — 2026-06-20
 
 ### Añadido

@@ -18,7 +18,7 @@ permalink: /
       <p class="bib-cap-hero__kicker">Documentación, herramientas y datos abiertos sobre formación bonificada para empresas en España. Todo lo que un técnico de RRHH necesita para gestionar la bonificación FUNDAE.</p>
       <div class="bib-cap-hero__stats">
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">8</div>
+          <div class="bib-cap-hero__stat-num">9</div>
           <div class="bib-cap-hero__stat-label">Secciones</div>
         </div>
         <div class="bib-cap-hero__stat-card">
@@ -26,7 +26,7 @@ permalink: /
           <div class="bib-cap-hero__stat-label">Preguntas FAQ</div>
         </div>
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">38</div>
+          <div class="bib-cap-hero__stat-num">44</div>
           <div class="bib-cap-hero__stat-label">Páginas</div>
         </div>
         <div class="bib-cap-hero__stat-card">
@@ -112,6 +112,22 @@ permalink: /
     <div class="bib-ficha-featured__meta">
       <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
       <span>PGC · RD 694/2017 · BOICAC 94 · ICAC</span>
+    </div>
+  </div>
+</div>
+
+<div class="bib-ficha-featured" style="cursor:pointer" onclick="window.location='plantillas/'">
+  <div class="bib-ficha-featured__num">
+    <div class="bib-ficha-featured__num-text">★</div>
+    <div class="bib-ficha-featured__badge">Nuevo</div>
+  </div>
+  <div class="bib-ficha-featured__body">
+    <h4 class="bib-ficha-featured__title"><a href="plantillas/">Plantillas FUNDAE · 5 modelos listos</a></h4>
+    <p class="bib-ficha-featured__sub">Documentos modelo para copiar y rellenar, con su base normativa.</p>
+    <p class="bib-ficha-featured__excerpt">Comunicación a la RLT y a trabajadores, checklist de documentación para auditoría, acuerdo con la entidad organizadora y encuesta de satisfacción. Cada plantilla en su propia página.</p>
+    <div class="bib-ficha-featured__meta">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      <span>Ley 30/2015 · RD 694/2017 · listas para usar</span>
     </div>
   </div>
 </div>

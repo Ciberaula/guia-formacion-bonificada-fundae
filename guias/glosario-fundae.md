@@ -2,7 +2,7 @@
 layout: default
 title: "Glosario FUNDAE"
 parent: Guía de Formación Bonificada FUNDAE
-nav_order: 4
+nav_order: 6
 description: "Glosario completo de formación bonificada FUNDAE: 99 términos explicados en lenguaje directo. Crédito, bonificación, cofinanciación, SEPE, RLT, TC1, auditoría y más."
 ---
 
@@ -12,7 +12,7 @@ description: "Glosario completo de formación bonificada FUNDAE: 99 términos ex
 99 términos clave para entender la formación bonificada en España, explicados en lenguaje directo.
 {: .fs-5 .fw-300 }
 
-<span style="font-size:12px;color:#71717a">Última actualización: abril 2026</span>
+<span style="font-size:12px;color:#71717a">Última actualización: junio 2026</span>
 
 ---
 
@@ -21,6 +21,14 @@ description: "Glosario completo de formación bonificada FUNDAE: 99 términos ex
   <p>Recoge los términos que aparecen con más frecuencia en la gestión de la formación bonificada ante FUNDAE. Si eres técnico de RRHH, responsable de formación o estás empezando con las bonificaciones, este glosario te ahorrará tiempo. Organizado alfabéticamente con 99 definiciones.</p>
 </div>
 
+
+<div class="bib-callout bib-callout--info">
+  <svg class="bib-callout__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+  <div class="bib-callout__body">
+    <div class="bib-callout__label">Glosario completo en ciberaula.com</div>
+    <p>Esta página recoge una <strong>selección de los 99 términos</strong> más consultados. El <strong>glosario completo, con más de 300 términos</strong> y sus referencias normativas, está en <a href="https://www.ciberaula.com/biblia-formacion-bonificada/glosario-formacion-bonificada/">la Biblia de la Formación Bonificada</a>.</p>
+  </div>
+</div>
 
 <div class="bib-subgroup">
   <div class="bib-subgroup__head">
