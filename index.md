@@ -18,15 +18,15 @@ permalink: /
       <p class="bib-cap-hero__kicker">Documentación, herramientas y datos abiertos sobre formación bonificada para empresas en España. Todo lo que un técnico de RRHH necesita para gestionar la bonificación FUNDAE.</p>
       <div class="bib-cap-hero__stats">
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">7</div>
+          <div class="bib-cap-hero__stat-num">8</div>
           <div class="bib-cap-hero__stat-label">Secciones</div>
         </div>
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">65+</div>
+          <div class="bib-cap-hero__stat-num">75+</div>
           <div class="bib-cap-hero__stat-label">Preguntas FAQ</div>
         </div>
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">28</div>
+          <div class="bib-cap-hero__stat-num">38</div>
           <div class="bib-cap-hero__stat-label">Páginas</div>
         </div>
         <div class="bib-cap-hero__stat-card">
@@ -96,6 +96,22 @@ permalink: /
     <div class="bib-ficha-featured__meta">
       <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M8 5v14l11-7z"/></svg>
       <span>13 trámites · vídeos oficiales FUNDAE</span>
+    </div>
+  </div>
+</div>
+
+<div class="bib-ficha-featured" style="cursor:pointer" onclick="window.location='guias/contabilizacion/'">
+  <div class="bib-ficha-featured__num">
+    <div class="bib-ficha-featured__num-text">★</div>
+    <div class="bib-ficha-featured__badge">Nuevo</div>
+  </div>
+  <div class="bib-ficha-featured__body">
+    <h4 class="bib-ficha-featured__title"><a href="guias/contabilizacion/">Contabilización de la formación bonificada · 9 temas</a></h4>
+    <p class="bib-ficha-featured__sub">Qué cuentas usar, cómo reflejar la bonificación y qué mira la inspección.</p>
+    <p class="bib-ficha-featured__excerpt">La cuenta 649, los costes internos, la bonificación en la 74 o la 642, el BOICAC 94, la periodificación entre ejercicios y el régimen sancionador. Nueve temas, cada uno en su página.</p>
+    <div class="bib-ficha-featured__meta">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+      <span>PGC · RD 694/2017 · BOICAC 94 · ICAC</span>
     </div>
   </div>
 </div>

@@ -2,6 +2,17 @@
 
 Todas las actualizaciones significativas de esta guía se documentan aquí. El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y el versionado [Semántico](https://semver.org/lang/es/).
 
+## [v2026.3] — 2026-06-20
+
+### Añadido
+- **Contabilización de la formación bonificada**: 9 temas, cada uno en su propia página — obligación legal y denominación de la cuenta, la cuenta 649 (gasto externo), costes internos, la bonificación en la cuenta 74 o 642, el BOICAC 94 (doble criterio del ICAC), periodificación entre ejercicios, devolución de bonificaciones improcedentes, errores contables ante inspección y régimen sancionador (LISOS). Con cuentas del PGC, referencias normativas y FAQ.
+- Índice navegable de la sección con jerarquía de tres niveles.
+
+### Cambiado
+- Home: enlace destacado a la nueva sección y contadores actualizados (8 secciones · 38 páginas · 75+ FAQ).
+
+---
+
 ## [v2026.2] — 2026-06-20
 
 ### Añadido
