@@ -2,7 +2,7 @@
 layout: default
 title: "Guía de la aplicación FUNDAE"
 parent: "Guía de Formación Bonificada FUNDAE"
-nav_order: 4
+nav_order: 3
 has_children: true
 description: "Guía paso a paso de la aplicación telemática de FUNDAE: los 13 trámites, del alta de empresa a la consulta del expediente, con plazos y vídeos oficiales."
 permalink: /guias/aplicacion-fundae/

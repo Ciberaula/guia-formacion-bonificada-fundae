@@ -2,7 +2,7 @@
 layout: default
 title: "Glosario FUNDAE"
 parent: Guía de Formación Bonificada FUNDAE
-nav_order: 6
+nav_order: 5
 description: "Glosario completo de formación bonificada FUNDAE: 99 términos explicados en lenguaje directo. Crédito, bonificación, cofinanciación, SEPE, RLT, TC1, auditoría y más."
 ---
 

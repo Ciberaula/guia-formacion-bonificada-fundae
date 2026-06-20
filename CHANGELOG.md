@@ -2,6 +2,14 @@
 
 Todas las actualizaciones significativas de esta guía se documentan aquí. El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y el versionado [Semántico](https://semver.org/lang/es/).
 
+## [v2026.5] — 2026-06-20
+
+### Cambiado
+- Sitio configurado en **español**: `lang: es` y `locale: es_ES` (antes el `og:locale` arrastraba `en_US`), mejorando la señal de idioma para buscadores y motores de IA.
+- Menú lateral reordenado con `nav_order` coherente (1–6), resolviendo la colisión entre «Proceso completo» y «Requisitos».
+
+---
+
 ## [v2026.4] — 2026-06-20
 
 ### Añadido

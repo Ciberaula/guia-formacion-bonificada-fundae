@@ -2,7 +2,7 @@
 layout: default
 title: "Requisitos FUNDAE plataformas"
 parent: Guía de Formación Bonificada FUNDAE
-nav_order: 3
+nav_order: 2
 description: "Requisitos técnicos que FUNDAE exige a las plataformas LMS de teleformación: infraestructura, trazabilidad, contenidos, evaluación, tutorización y acceso para inspección."
 ---
 

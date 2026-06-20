@@ -2,7 +2,7 @@
 layout: default
 title: "Contabilización de la formación bonificada"
 parent: "Guía de Formación Bonificada FUNDAE"
-nav_order: 5
+nav_order: 4
 has_children: true
 description: "Cómo contabilizar la formación bonificada FUNDAE: cuentas del PGC, la 649, costes internos, la bonificación (74 o 642), BOICAC 94, periodificación, devoluciones y régimen sancionador."
 permalink: /guias/contabilizacion/

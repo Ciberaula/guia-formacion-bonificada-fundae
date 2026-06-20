@@ -2,7 +2,7 @@
 layout: default
 title: "Plantillas FUNDAE"
 parent: "Guía de Formación Bonificada FUNDAE"
-nav_order: 7
+nav_order: 6
 has_children: true
 description: "Plantillas y modelos listos para usar en la gestión de la formación bonificada FUNDAE: comunicación a la RLT, a trabajadores, checklist de auditoría, acuerdo con la entidad y encuesta de satisfacción."
 permalink: /plantillas/

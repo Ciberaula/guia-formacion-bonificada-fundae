@@ -2,7 +2,7 @@
 layout: default
 title: "Proceso completo FUNDAE"
 parent: Guía de Formación Bonificada FUNDAE
-nav_order: 3
+nav_order: 1
 description: "Guía paso a paso del proceso completo de formación bonificada FUNDAE: desde la comunicación de inicio hasta la aplicación de la bonificación en los TC."
 ---
 
