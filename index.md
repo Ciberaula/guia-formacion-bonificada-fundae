@@ -18,15 +18,15 @@ permalink: /
       <p class="bib-cap-hero__kicker">Documentación, herramientas y datos abiertos sobre formación bonificada para empresas en España. Todo lo que un técnico de RRHH necesita para gestionar la bonificación FUNDAE.</p>
       <div class="bib-cap-hero__stats">
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">6</div>
+          <div class="bib-cap-hero__stat-num">7</div>
           <div class="bib-cap-hero__stat-label">Secciones</div>
         </div>
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">30+</div>
+          <div class="bib-cap-hero__stat-num">65+</div>
           <div class="bib-cap-hero__stat-label">Preguntas FAQ</div>
         </div>
         <div class="bib-cap-hero__stat-card">
-          <div class="bib-cap-hero__stat-num">14</div>
+          <div class="bib-cap-hero__stat-num">28</div>
           <div class="bib-cap-hero__stat-label">Páginas</div>
         </div>
         <div class="bib-cap-hero__stat-card">
@@ -84,6 +84,22 @@ permalink: /
     </div>
   </div>
 </div>
+<div class="bib-ficha-featured" style="cursor:pointer" onclick="window.location='guias/aplicacion-fundae/'">
+  <div class="bib-ficha-featured__num">
+    <div class="bib-ficha-featured__num-text">★</div>
+    <div class="bib-ficha-featured__badge">Nuevo</div>
+  </div>
+  <div class="bib-ficha-featured__body">
+    <h4 class="bib-ficha-featured__title"><a href="guias/aplicacion-fundae/">Guía de la aplicación FUNDAE · 13 trámites</a></h4>
+    <p class="bib-ficha-featured__sub">Del alta de empresa a la consulta del expediente, trámite a trámite.</p>
+    <p class="bib-ficha-featured__excerpt">Los 13 trámites de la aplicación telemática de FUNDAE explicados uno a uno, con plazos, vídeos oficiales y la cara del trabajador. Cada trámite en su propia página, navegable.</p>
+    <div class="bib-ficha-featured__meta">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M8 5v14l11-7z"/></svg>
+      <span>13 trámites · vídeos oficiales FUNDAE</span>
+    </div>
+  </div>
+</div>
+
 <div class="bib-ficha-pending-grid">
   <a href="faq/preguntas-frecuentes-fundae" class="bib-ficha-pending">
     <span class="bib-ficha-pending__num">02</span>

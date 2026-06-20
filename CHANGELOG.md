@@ -2,6 +2,17 @@
 
 Todas las actualizaciones significativas de esta guía se documentan aquí. El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/) y el versionado [Semántico](https://semver.org/lang/es/).
 
+## [v2026.2] — 2026-06-20
+
+### Añadido
+- **Guía de la aplicación FUNDAE**: los 13 trámites de la aplicación telemática de FUNDAE, cada uno en su propia página — acceso y alta, alta de acción y grupo, comunicación de inicio y finalización, información a la RLT, notificaciones electrónicas, declaración responsable, consulta de expediente, subsanación de no conformes, permisos individuales (PIF), portal del trabajador y buscador oficial de cursos. Con vídeos oficiales de FUNDAE y FAQ por trámite.
+- Índice navegable de la guía con jerarquía de tres niveles (just-the-docs).
+
+### Cambiado
+- Home: enlace destacado a la nueva guía y contadores actualizados (7 secciones · 28 páginas · 65+ FAQ).
+
+---
+
 ## [v2026.1] — 2026-03-03
 
 ### Publicación inicial
